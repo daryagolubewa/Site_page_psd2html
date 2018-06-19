@@ -1,0 +1,370 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.main_container {
+  width: 1170px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40px;
+  background-color: #e4e4e4;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info .phones div {
+  display: inline-flex;
+  margin: 10px;
+}
+
+.info .number {
+  font-size: 18px;
+}
+
+.info .call {
+  font-size: 12px;
+}
+
+.info .media a {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin: 10px;
+  text-decoration: none;
+  color: #040404;
+  font-size: 14px;
+}
+
+.panel {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e4e4e4;
+  margin: 0px;
+  padding: 10px;
+}
+
+.panel div {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+}
+
+.panel .search {
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid #2a2a2a;
+  height: 25px;
+  width: 225px;
+}
+
+.panel .logos div {
+  display: inline-flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.panel .amount li {
+  font-size: 12px;
+  margin-left: 10px;
+  list-style-type: none;
+}
+
+nav {
+  padding: 10px;
+}
+
+nav.menu li {
+  display: inline;
+  margin: 10px;
+}
+
+nav li.active {
+  border-bottom: 3px solid #ff6c00;
+  padding: 10px;
+}
+
+nav ul.categories {
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 10px;
+}
+
+nav ul.clothes {
+  border-bottom: 1px solid #e4e4e4;
+  padding: 10px;
+  font-size: 14px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 31px;
+}
+
+main .firstLine {
+  display: flex;
+  flex-direction: row;
+  padding-top: 70px;
+  margin-bottom: 39px;
+}
+
+main .firstLine div {
+  display: flex;
+  flex-grow: 1;
+  width: 495px;
+  height: 10px;
+}
+
+main .firstLine .none {
+  box-shadow: inset 0 -2px #d9d9d9;
+}
+
+main .firstLine .yourCart {
+  width: 178px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+table {
+  display: flex;
+  width: 1170px;
+  border-spacing: 0px;
+}
+
+table th p {
+  text-align: left;
+  margin-left: 15px;
+}
+
+table td {
+  vertical-align: middle;
+  height: 176px;
+  padding: 15px;
+}
+
+table td:nth-child(1) {
+  width: 170px;
+}
+
+table td:nth-child(2)  {
+
+  width: 297px;
+}
+
+td:nth-child(2) li {
+  list-style-type: none;
+}
+
+td:nth-child(3)  {
+  width: 277px;
+}
+
+td:nth-child(4) {
+  width: 218px;
+}
+
+td:nth-child(5) {
+  width: 195px;
+}
+
+.ItemCode {
+  color: #a2a2a2;
+  margin-top: 21px;
+  margin-bottom: 26px;
+}
+
+.ItemSize {
+  font-weight: bold;
+}
+
+.ItemColour {
+  font-weight: bold;
+}
+
+.ItemPrice {
+  font-weight: bold;
+}
+
+.AmountChange {
+  color: #8d8d8d;
+}
+
+main .payment {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 33px;
+}
+
+main .promoCode input {
+  margin-top: 7px;
+  margin-right: 20px;
+  border: 1px solid #dadada;
+  width: 277px;
+  height: 45px;
+}
+
+main .promoCode button {
+  background: #b7b7b7;
+  border: 1px solid  #b7b7b7;
+  height: 45px;
+  width: 178px;
+  border-radius: 30px;
+  color: #fafafa;
+}
+
+main .makeOrder {
+  display: flex;
+  justify-content: space-between;
+  width: 353px;
+  line-height: 30px;
+}
+
+main .makeOrder .sum {
+  color: #ff7611;
+}
+
+main .makeOrder .total {
+  margin-top: 42px;
+}
+
+main .buttonWrapper  {
+  display: flex;
+  justify-content: flex-end;
+}
+
+main .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff6c00;
+  border: 1px solid #ff6c00;
+  height: 45px;
+  width: 178px;
+  border-radius: 30px;
+  color: #fafafa;
+  margin-top: 32px;
+}
+
+main .line {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 39px;
+}
+
+main .line div {
+  display: flex;
+  flex-grow: 1;
+  width: 426px;
+  height: 10px;
+}
+
+main .line .empty {
+  box-shadow: inset 0 -2px #d9d9d9;
+}
+
+main .line .add {
+  width: 315px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+main .additions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 102px;
+  text-decoration: none;
+}
+
+main .additions .product {
+  width: 277px;
+  cursor: pointer;
+}
+
+main .product p {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #2a2a2a;
+  max-height: 578px;
+  color: #cacaca;
+}
+
+footer .networks {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  margin: 10px;
+  width: 100%;
+}
+
+.networks a {
+  margin: 7px;
+}
+
+footer .contacts {
+  height: 282px;
+  border-top: 1px solid #b2b2b2;
+  border-bottom: 1px solid #b2b2b2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 39px;
+  padding-bottom: 40px;
+}
+
+footer .phoneNumbers li {
+  margin-bottom: 10px;  
+  list-style-type: none;
+}
+
+footer .numbers {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+footer .call {
+  font-size: 12px;
+}
+
+footer .footerColumn a{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #b2b2b2;
+  margin-top: 10px;
+  max-width: 150px;
+}
+
+footer .footerColumn p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer .copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 135px;
+  font-size: 12px;
+}
