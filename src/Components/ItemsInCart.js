@@ -1,10 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import AddingButtons from '../Components/AddingToCartButtons'
 
-const goodsNumber = ({goodsNumber}) => (
+
+export const goodsNumber = ({ItemsNumber}) => (
     <ul>
         <li>В корзине: </li>
-        <li> </li>
+        <li> {ItemsNumber} </li>
     </ul>
 )
+
+ export const ItemsNumber = state.reduce(sum, current) => ({
+    return sum + current.amount
+})
+
+

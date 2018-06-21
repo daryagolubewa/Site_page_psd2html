@@ -14,7 +14,6 @@ export const minusItem = (id) => ({
 
 export const removeItem = (id) => ({
 type: 'REMOVE_ITEM',
-    amount,
     id
 })
 
