@@ -5,18 +5,18 @@ const items = (state = [{
     code: '82039-11',
     size: '44',
     color: 'синий',
+    amount: 1,
     price: 2450,
     pic: "Img/Dress_1.png",
-    amount: 1,
     id: 0
 },
     {name: 'Туфли женские украшенные кружевными вставками',
         code: '13524-01',
         size: '38',
         color: 'черный',
+        amount: 1,
         price: 2450,
         pic: "Img/Sandals.png",
-        amount: 1,
         id: 1
     },
 
@@ -24,18 +24,18 @@ const items = (state = [{
         code: '75039',
         size: '44',
         color: 'белый',
+        amount: 1,
         price: 2450,
         pic: "Img/WhiteDress.png",
-        amount: 1,
         id: 2
 },
     {name: 'Платье-миди',
         code: '75039',
         size: '44',
         color: 'белый',
+        amount: 1,
         price: 2450,
         pic: "Img/WhiteDress.png",
-        amount: 1,
         id: 3
     }], action) => {
     switch (action.type) {
@@ -48,6 +48,11 @@ const items = (state = [{
             return state.map(item =>
                 (item.id === action.id)
                     ? {...item, amount: item.amount - 1} : item
+            )
+        case 'REMOVE_ITEM':
+            return state.filter(item =>
+                (item.id !== action.id)
+
             )
     }
     return state

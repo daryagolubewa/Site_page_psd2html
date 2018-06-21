@@ -12,8 +12,10 @@ export const minusItem = (id) => ({
     id
 })
 
-export const removeItem = () => ({
-
+export const removeItem = (id) => ({
+type: 'REMOVE_ITEM',
+    amount,
+    id
 })
 
 export const addPromocode = (Code) => ({
