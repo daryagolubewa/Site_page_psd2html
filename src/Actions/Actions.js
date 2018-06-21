@@ -1,28 +1,23 @@
 
-let ItemId = 0;
-export const addItem = (ItemName, ItemCode, ItemSize, ItemColor, ItemPrice, ItemPic) => ({
-    type: 'ADD_ITEM',
-    ItemName,
-    ItemCode,
-    ItemSize,
-    ItemColor,
-    ItemPrice,
-    ItemPic,
-    id: ++ItemId
+
+export const plusItem = (id) => ({
+    type: 'PLUS_ITEM',
+    amount,
+    id
 })
 
-export const removeItem = (ItemName, ItemCode, ItemSize, ItemColor, ItemPrice, ItemPic) => ({
-    type: 'REMOVE_ITEM',
-    ItemName,
-    ItemCode,
-    ItemSize,
-    ItemColor,
-    ItemPrice,
-    ItemPic,
-    id: ++ItemId
+export const minusItem = (id) => ({
+    type: 'MINUS_ITEM',
+    amount,
+    id
+})
+
+export const removeItem = () => ({
+
 })
 
 export const addPromocode = (Code) => ({
     type: 'ADD_PROMOCODE',
     Code
 })
+
