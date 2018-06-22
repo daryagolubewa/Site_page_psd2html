@@ -48,7 +48,8 @@ const items = (state = [{
             return state.map(item =>
                 (item.id === action.id)
                     ? {...item, amount: item.amount - 1} : item
-            )
+            ). filter(item =>
+            (item.amount > 0) )
         case 'REMOVE_ITEM':
             return state.filter(item =>
                 (item.id !== action.id)

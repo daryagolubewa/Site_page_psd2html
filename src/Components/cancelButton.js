@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const cancelButton = ({cancelButton}) => (
-    <td><img src="%PUBLIC_URL%/Img/cancel.png" onClick={cancelButton} /> </td>
+const CancelButton = ({cancelButton}) => (
+    <img src="Img/cancel.png" onClick={cancelButton} class="cancel" />
 )
 
-cancelButton.propTypes = {
+CancelButton.propTypes = {
     cancelButton: PropTypes.func.isRequired
 }
 
-export default cancelButton
+export default CancelButton

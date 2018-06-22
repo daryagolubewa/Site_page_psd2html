@@ -212,6 +212,11 @@ td:nth-child(5) {
 
 .AmountChange {
   color: #8d8d8d;
+  cursor: pointer;
+}
+
+.cancel {
+    cursor: pointer;
 }
 
 main .payment {
