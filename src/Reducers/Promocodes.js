@@ -7,7 +7,7 @@ const promocodes = (state = [{
 }], action) => {
     switch (action.type) {
         case 'ADD_PROMOCODE':
-            if (typeof state.availableCodes[action.code] !== undefined) {
+            if (typeof state.availableCodes[action.code] !== 'undefined') {
                 return {...state, activeCode: action.code}
 
             }

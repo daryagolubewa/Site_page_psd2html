@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const Promocode = ({Code}) => (
     <div class="promoCode">
         <p>Есть промокод?</p>
-        <input type="text" placeholder="Введите промокод" />
+        <input type="text" placeholder="Введите промокод" value={Code}/>
         <button>Применить</button>
     </div>
 )
