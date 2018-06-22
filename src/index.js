@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import './CartCss.css';
 import App from './App';
-import combineReducers from './Reducers/items'
+import combineReducers from './Reducers/index'
 
 const store = createStore(combineReducers)
 

@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import Item from './Components/ItemsTable'
+import AddedItems from './Containers/AddedItems'
+import ItemsInCartContainer from './Containers/ItemsInCartContainer'
 
 
 //import './App.css';
 //import './CartCss.css';
 //import './CssReset.css';
 
-class App extends Component {
-  render() {
-    return (
-        <div class="main_container">
+
+      const App = () => (
+        <div className="main_container">
 
         <header>
 
@@ -39,10 +39,8 @@ class App extends Component {
                 <div class="logos">
                     <div class="User"><img src="Img/User.png" /> Анастасия</div>
                     <div class="amount"><img src="Img/Shopping_bag.png" />
-                        <ul>
-                            <li>В корзине: </li>
-                            <li> </li>
-                        </ul>
+                        <ItemsInCartContainer/>
+
                     </div>
                 </div>
             </div>
@@ -77,15 +75,16 @@ class App extends Component {
               </div>
 
               <table>
-                  <tr>
-                      <th><p>Товар</p></th>
-                      <th><p>Описание</p></th>
-                      <th><p>Количество</p></th>
-                      <th><p>Цена</p></th>
-                      <th><p>Удалить</p></th>
-                  </tr>
-
-                  <Item />
+                  <tbody>
+                      <tr>
+                          <th><p>Товар</p></th>
+                          <th><p>Описание</p></th>
+                          <th><p>Количество</p></th>
+                          <th><p>Цена</p></th>
+                          <th><p>Удалить</p></th>
+                      </tr>
+                      <AddedItems />
+                  </tbody>
               </table>
 
           </div>
@@ -237,8 +236,8 @@ class App extends Component {
 
       </footer>
         </div>
-    );
-  }
-}
+
+
+)
 
 export default App;

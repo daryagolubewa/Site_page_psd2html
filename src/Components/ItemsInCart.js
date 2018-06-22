@@ -2,15 +2,18 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 
-export const goodsNumber = ({ItemsNumber}) => (
+const GoodsNumber = ({productNumber}) => (
     <ul>
         <li>В корзине: </li>
-        <li> {ItemsNumber} </li>
+        <li> {productNumber} товара </li>
     </ul>
 )
 
- export const ItemsNumber = state.reduce(sum, current) => ({
-    return sum + current.amount
-})
+
+GoodsNumber.propTypes = {
+    productNumber: PropTypes.number.isRequired
+}
+
+export default GoodsNumber
 
 

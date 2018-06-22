@@ -54,6 +54,8 @@ const items = (state = [{
                 (item.id !== action.id)
 
             )
+        default:
+            return state
     }
     return state
 }
