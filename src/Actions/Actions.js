@@ -15,8 +15,8 @@ type: 'REMOVE_ITEM',
     id
 })
 
-export const addPromocode = (Code) => ({
+export const addPromocode = (code) => ({
     type: 'ADD_PROMOCODE',
-    Code
+    code
 })
 
