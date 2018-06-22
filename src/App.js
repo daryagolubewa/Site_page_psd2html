@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import AddedItems from './Containers/AddedItems'
 import ItemsInCartContainer from './Containers/ItemsInCartContainer'
+import GetTotalSum from './Containers/GetTotalSum'
 
 
 //import './App.css';
@@ -105,10 +106,7 @@ import ItemsInCartContainer from './Containers/ItemsInCartContainer'
                       <p class="total">Всего:</p>
                   </div>
                   <div>
-                      <p>9800 руб.</p>
-                      <p class="sum">-1800 руб.</p>
-
-                      <p class="total">8000 руб.</p>
+                       <GetTotalSum/>
 
                   </div>
               </div>
