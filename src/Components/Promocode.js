@@ -12,6 +12,7 @@ const Promocode = ({code, addCode}) => {
                     return
                 }
                 addCode(input.value)
+                input.value = ''
             }}>Применить</button>
         </div>
     )
