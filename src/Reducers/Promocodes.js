@@ -1,18 +1,18 @@
-const promocodes = (state = [{
-    availableCodes: [{
+const promocodes = (state = {
+    availableCodes: {
         '123456': 1800
-    }],
+    },
     activeCode: null
 
-}], action) => {
+}, action) => {
     switch (action.type) {
         case 'ADD_PROMOCODE':
             if (typeof state.availableCodes[action.code] !== 'undefined') {
                 return {...state, activeCode: action.code}
 
             }
-            return state
     }
+    return state
 }
 
 export default promocodes

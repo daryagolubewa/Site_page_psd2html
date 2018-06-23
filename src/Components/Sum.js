@@ -2,18 +2,34 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 
-const Sum = ({TotalSum}) => (
+const Sum = ({TotalSum, Discount}) => (
 
-<div>
-<p>{TotalSum} руб.</p>
-<p class="sum">-1800 руб.</p>
+    <div className="makeOrder">
+        <div>
+            <p>Сумма заказа:</p>
+            {Discount > 0 &&
+            <p className="sum">Промокод:</p>
+            }
 
-<p class="total">{TotalSum} руб.</p>
+            <p className="total">Всего:</p>
+        </div>
+        <div>
+            <div>
+                <p>{TotalSum} руб.</p>
 
-</div>
+                {Discount > 0 &&
+                <p className="sum"> -{Discount}</p>
+                }
+
+                <p className="total">{TotalSum - Discount} руб.</p>
+
+            </div>
+
+        </div>
+    </div>
 )
 
-Sum.PropTypes = {
+Sum.propTypes = {
     TotalSum: PropTypes.number.isRequired
 }
 

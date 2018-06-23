@@ -24,8 +24,8 @@ const Item = ({ pic, name, code, size, color, minusButton, amount, plusButton, p
 
 Item.propTypes = {
     name: PropTypes.string.isRequired,
-    code: PropTypes.number.isRequired,
-    size: PropTypes.number.isRequired,
+    code: PropTypes.string.isRequired,
+    size: PropTypes.string.isRequired,
     color: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
     pic: PropTypes.string.isRequired

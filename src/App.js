@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import AddedItems from './Containers/AddedItems'
 import ItemsInCartContainer from './Containers/ItemsInCartContainer'
 import GetTotalSum from './Containers/GetTotalSum'
+import AddingPromocode from './Containers/AddingPromocode'
+
 
 
 //import './App.css';
@@ -92,24 +94,12 @@ import GetTotalSum from './Containers/GetTotalSum'
 
           <div class="payment">
 
-              <div class="promoCode">
-                  <p>Есть промокод?</p>
-                  <input type="text" placeholder="Введите промокод" />
-                      <button>Применить</button>
-              </div>
+              <AddingPromocode />
 
-              <div class="makeOrder">
-                  <div>
-                      <p>Сумма заказа:</p>
-                      <p class="sum">Промокод:</p>
 
-                      <p class="total">Всего:</p>
-                  </div>
-                  <div>
                        <GetTotalSum/>
 
-                  </div>
-              </div>
+
           </div>
 
           <div class="buttonWrapper">
