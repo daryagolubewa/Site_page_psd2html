@@ -37,7 +37,7 @@ import AddingPromocode from './Containers/AddingPromocode'
                 </div>
 
                 <div><input className="search" placeholder="Поиск по сайту" />
-                    <img src="Img/Magnifier.png" /></div>
+                    </div>
 
                 <div className="logos">
                     <div className="User"><img src="Img/User.png" /> Анастасия</div>
