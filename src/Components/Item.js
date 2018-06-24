@@ -8,17 +8,17 @@ const Item = ({ pic, name, code, size, color, minusButton, amount, plusButton, p
         <td><img src={pic} /></td>
         <td>
             <ul>
-                <li class="ItemName"> {name}</li>
-                <li class="ItemCode">Код: {code}</li>
-                <li class="ItemSize">Размер: {size}</li>
-                <li class="ItemColour">Цвет: {color}</li>
+                <li className="ItemName"> {name}</li>
+                <li className="ItemCode">Код: {code}</li>
+                <li className="ItemSize">Размер: {size}</li>
+                <li className="ItemColour">Цвет: {color}</li>
             </ul>
         </td>
         <td>
             <AddingButtons minusButton={minusButton} amount={amount} plusButton={plusButton}/>
         </td>
-        <td class="ItemPrice">{price} руб.</td>
-        <td><CancelButton cancelButton={cancelButton}/></td>
+        <td className="ItemPrice">{price} руб.</td>
+        <td className='cancelButton'><CancelButton cancelButton={cancelButton}/></td>
     </tr>
 )
 

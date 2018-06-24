@@ -3,10 +3,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const AddingButtons = ({plusButton, amount, minusButton}) => (
-    <div>
-        <span class="AmountChange" onClick={minusButton}> - </span>
-        <span> {amount} </span>
-        <span class="AmountChange" onClick={plusButton}> + </span>
+    <div className='likeButtons'>
+        <span className="AmountChange" onClick={minusButton}> - </span>
+        <span className="Amount"> {amount} </span>
+        <span className="AmountChange" onClick={plusButton}> + </span>
     </div>
 )
 
