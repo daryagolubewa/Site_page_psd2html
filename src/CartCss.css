@@ -1,5 +1,5 @@
 p {
-    margin: 0px;
+  margin: 0px;
 }
 
 body {
@@ -32,8 +32,8 @@ body {
 }
 
 .info .number {
-    font-size: 18px;
-    padding-left: 6px;
+  font-size: 18px;
+  padding-left: 6px;
 }
 
 .info .call {
@@ -51,7 +51,7 @@ body {
 }
 
 .media .pics {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .panel {
@@ -63,20 +63,20 @@ body {
 }
 
 .panel div {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 14px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
 }
 
 .panel .search {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #2a2a2a;
-    height: 25px;
-    width: 225px;
-    background: url(/Img/Magnifier.png) no-repeat scroll 205px 7px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #2a2a2a;
+  height: 25px;
+  width: 225px;
+  background: url(/Img/Magnifier.png) no-repeat scroll 205px 7px;
 
 
 }
@@ -88,7 +88,7 @@ body {
 }
 
 .panel .amount ul {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .panel .amount li {
@@ -111,17 +111,17 @@ nav li.active {
 }
 
 nav ul.categories {
-    border-bottom: 1px solid #e4e4e4;
-    padding-left: 0px;
-    padding-bottom: 10px;
-    margin-bottom: 0px;
+  border-bottom: 1px solid #e4e4e4;
+  padding-left: 0px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 nav ul.clothes {
-    border-bottom: 1px solid #e4e4e4;
-    font-size: 14px;
-    padding-bottom: 14px;
-    padding-left: 17px;
+  border-bottom: 1px solid #e4e4e4;
+  font-size: 14px;
+  padding-bottom: 14px;
+  padding-left: 17px;
 }
 
 main {
@@ -156,8 +156,8 @@ main .firstLine .yourCart {
 }
 
 .firstLine .yourCart p {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 table {
@@ -170,9 +170,9 @@ table th p {
   text-align: left;
   margin-left: 15px;
 }
- th.Header p {
-     text-align: center;
- }
+th.Header p {
+  text-align: center;
+}
 
 table td {
   height: 176px;
@@ -182,7 +182,7 @@ table td {
 
 table td:nth-child(1) {
   width: 170px;
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 table td:nth-child(2) {
@@ -190,7 +190,7 @@ table td:nth-child(2) {
 }
 
 td:nth-child(2) ul {
-    padding-left: 0px;
+  padding-left: 0px;
 }
 
 td:nth-child(2) li {
@@ -204,14 +204,14 @@ td:nth-child(3)  {
 }
 
 td:nth-child(3) .likeButtons  {
-   display: flex;
-   justify-content: center;
-   align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 td:nth-child(3) .Amount {
-    margin-right: 10px;
-    margin-left: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 td:nth-child(4) {
@@ -257,7 +257,7 @@ td:nth-child(5) {
 }
 
 .cancel {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 main .payment {
@@ -343,8 +343,8 @@ main .line .add {
 }
 
 .line .add p {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 main .additions {
@@ -395,13 +395,13 @@ footer .contacts {
 }
 
 footer .logo {
-    margin-top: 0px;
-    vertical-align: text-top;
+  margin-top: 0px;
+  vertical-align: text-top;
 }
 
 footer .phoneNumbers {
-    margin-top: 0px;
-    vertical-align: text-top;
+  margin-top: 0px;
+  vertical-align: text-top;
 }
 
 footer .phoneNumbers li {
@@ -425,7 +425,7 @@ footer .call {
 }
 
 footer .footerColumn {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 footer .footerColumn a{
@@ -448,9 +448,8 @@ footer .copyright {
   align-items: center;
   justify-content: center;
   font-size: 12px;
-  padding: 35px 0;
 }
 
 footer .copyright p {
-    margin: 0px;
+  margin: 0px;
 }
