@@ -448,6 +448,8 @@ footer .copyright {
   align-items: center;
   justify-content: center;
   font-size: 12px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 footer .copyright p {
