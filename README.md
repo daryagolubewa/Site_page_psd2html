@@ -15,3 +15,6 @@ The task was made with usage of React Redux, CSS3, ES6.
 3. менять эту сумму, если покупатель вводит нужный промокод.
 
 Задание выполнено с использованием React Redux, CSS3, ES6.
+
+![alt text](https://pp.userapi.com/c845217/v845217691/15ceef/681T-2UL1rE.jpg)
+![alt text](https://pp.userapi.com/c845217/v845217566/15e617/X_xHIyA17bg.jpg)
